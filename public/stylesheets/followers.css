@@ -1,0 +1,250 @@
+/* * {
+    box-sizing: border-box;
+} */
+
+body {
+    background:url(../images/background.png);
+    background-color:rgba(0, 0, 0, 0.274);
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.fullspan {
+    border-top: 1px solid #e6ecf0;    
+    position: fixed;
+    background-color: #fff;  
+    width: 100%;
+    z-index: 2;
+    position: static;
+    display: block;
+    
+}
+
+.aboutAvatar{
+    margin-left: 400px;
+    font-family: cursive;
+   }
+
+.avatarText{
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 4px 4px black;
+}
+
+#menu-tab{
+    margin-left: 25px;
+}
+
+#menu-tab li {
+    text-align: inherit;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    list-style-type: none;
+    float: left;
+    padding: 10px;
+}
+
+
+.flowUl{
+    margin-left: 350px; 
+}
+
+#right-tab{
+    float: right;
+    padding: 5px;
+    margin-right: 120px;
+}
+
+a {
+    text-decoration: none;
+    background: transparent;
+}
+
+#followers-panel{
+       text-align: center;
+      
+}
+
+#followers-panel li{    
+    padding: 7px;
+    display: block;
+    float: left;
+    color: #657786;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: .02em;
+    transition: color .15s ease-in-out;
+}
+
+.others{
+    
+    margin-left:50px;
+    margin-right: 50px;   
+}
+#userfloatright{
+    float: right;
+    margin: 50px;
+}
+
+.infoTab{
+    width: 289.98px;
+    height: 100%;
+    background-color: blue;
+    position: absolute;
+    border: none;
+}
+
+.loginInput{
+     width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-top: 12px;
+    margin: 0;
+    outline: 0;
+        background-color: #fff;
+      border: 1px solid #e6ecf0;
+      border-radius: 3px;
+    font-size: 14px;
+    line-height: 20px
+  }
+
+  .edgebutton{
+    height: 100%;
+    padding: 12px;
+    width: auto;
+    box-sizing: border-box;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #1da1f2;
+    color: #1da1f2;
+    border-radius: 100px;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    display: inline-block;
+  }
+
+  .edgebutton-user{
+    height: 100%;
+    padding: 12px;
+    width: auto;
+    box-sizing: border-box;
+   
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #1da1f2;
+    color: #1da1f2;
+    border-radius: 100px;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    display: inline-block;
+  }
+
+.follows{
+    background-color: slategrey;
+    border: 3px solid slategray;
+    margin-left: 4px;
+}
+
+.column {
+    float: left;
+    width: 289.98px;
+    height: 281px;
+    margin: 5px;
+    background-color: whitesmoke;
+}
+
+
+.row:after {
+    content: "";
+    display: "table";
+    clear: "both";
+}
+
+.followers1{
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+@media screen and (max-width:600px){
+    .column{
+        width: 100%;
+    }
+    
+.flowUl{
+    margin-left: 100px; 
+}
+
+
+.aboutAvatar{
+  margin-left: 100px;
+}
+}
+#fullspan-list{
+  background: #fff;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+ol, ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+} 
+
+
+.ProfileCard-avatarLink, .ProfileCard-avatarLink1 {
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    margin: -45px 2px 0 12px;
+    padding: 3px;
+    position: relative;
+    vertical-align: bottom;
+    z-index: 1;
+  
+}
+
+.ProfileCard-avatarImage, .ProfileCard-avatarImage1  {
+    border-radius: 50%;
+    display: block;
+    height: 70px;
+    width: 70px;
+    border: o;
+    color: #1c94e0;
+}
+
+.profile-image{
+    border-radius: 50%;
+    display: block;
+    height: 200px;
+    width: 200px;
+    border: o;
+    color: #1c94e0;
+}
+
+.ProfileCard-avatarLink1{
+    margin-left: 20px;
+    margin-top: -120px;
+    z-index: 2px;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+/* box-shadow: 0px 0px 0px 2px #ffffff, 0px 0px 2px 4px rgba(29,161,242,0.4); */
+}
+
+
